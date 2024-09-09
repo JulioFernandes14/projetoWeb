@@ -30,5 +30,6 @@ Se tiver dúvidas ou quiser saber mais sobre o projeto, entre em contato:
 
 **Júlio Fernandes:**
 
+- **Matrícula**: 202402367625
 - **Email**: [juliomf@juliomf.com.br](mailto:juliomf@juliomf.com.br)
 - **LinkedIn**:(https://www.linkedin.com/in/julio-c%C3%A9sar-fernandes-090897236/)
