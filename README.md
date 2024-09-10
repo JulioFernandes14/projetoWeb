@@ -39,3 +39,9 @@ Se tiver dúvidas ou quiser saber mais sobre o projeto, entre em contato:
 - **Matrícula**: 202403022214
 - **Email**: [andre.fellipe.s.b@gmail.com](maito;andre.fellipe.s.b@gmail.com)
 - **LinkedIn**:(https://www.linkedin.com/in/andr%C3%A9-barbosa-635954252/)
+
+**Everton Marcos:**
+
+- **Matrícula**: 202403614928
+- **Email**: [evertonmarcos146@gmail.com](mailto:evertonmarcos146@gmail.com)
+- **LinkedIn**:(https://www.linkedin.com/in/everton-marcos-5666b9267)
