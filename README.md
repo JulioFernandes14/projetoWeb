@@ -33,3 +33,9 @@ Se tiver dúvidas ou quiser saber mais sobre o projeto, entre em contato:
 - **Matrícula**: 202402367625
 - **Email**: [juliomf@juliomf.com.br](mailto:juliomf@juliomf.com.br)
 - **LinkedIn**:(https://www.linkedin.com/in/julio-c%C3%A9sar-fernandes-090897236/)
+
+**André Fellipe:**
+
+- **Matrícula**: 202403022214
+- **Email**: [andre.fellipe.s.b@gmail.com](maito;andre.fellipe.s.b@gmail.com)
+- **LinkedIn**:(https://www.linkedin.com/in/andr%C3%A9-barbosa-635954252/)
