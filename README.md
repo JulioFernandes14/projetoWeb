@@ -46,7 +46,7 @@ Se tiver dúvidas ou quiser saber mais sobre o projeto, entre em contato:
 - **Email**: [evertonmarcos146@gmail.com](mailto:evertonmarcos146@gmail.com)
 - **LinkedIn**:(https://www.linkedin.com/in/everton-marcos-5666b9267)
 
-- **Israel Vaz:**
+ **Israel Vaz:**
 
 - **Matrícula**: 202403347849
 - **Email**: [israelvaz.rj@gmail.com](mailto:israelvaz.rj@gmail.com)
