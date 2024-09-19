@@ -51,3 +51,9 @@ Se tiver dúvidas ou quiser saber mais sobre o projeto, entre em contato:
 - **Matrícula**: 202403347849
 - **Email**: [israelvaz.rj@gmail.com](mailto:israelvaz.rj@gmail.com)
 - **LinkedIn**:(www.linkedin.com/in/israel-vaz-44218328a)
+
+ **João Pedro Chagas:**
+
+- **Matrícula**: 202403477157
+- **Email**: [joaopedroscdev@gmail.com](mailto:joaopedroscdev@gmail.com)
+- **LinkedIn**:(www.linkedin.com/in/jo%C3%A3o-pedro-chagas-b53b8a206)
