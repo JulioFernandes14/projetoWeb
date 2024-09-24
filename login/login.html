@@ -9,32 +9,56 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../menu/menu.css">
 </head>
 <body>
+
     <header>
-        <nav class="nav-bar">
-            <h3>LOGO MARCA</h3>
-        </nav>
+
+        <div class="menu">
+            <div class="hamburguer">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            <img src="../menu/assets/logo.png" alt="">
+            <div class="void">
+            </div>
+        </div>
+
+        <div class="menu-open">
+            <ul>
+                <li><a href="../pagina-inicial/index.html">Início</a></li>
+                <li><a href="">Loja</a></li>
+                <li><a href="login.html">Minha conta</a></li>
+            </ul>
+        </div>
+
     </header>
-    <div id="login">
-        <h1>LOGO</h1>
 
-        <form action="">
-            <div class="logsen">
-                <label for="email">endereço de email:</label>
-                <input type="email" name="" id="email" autocomplete="email" placeholder="lorem@gmail.com">
-            </div>
-            <div class="logsen">
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="password">
-            </div>
-            
-            <button type="submit" id="submit-button">ENTRAR</button>
+    <main>
+        <div id="login">
+            <h1>NOME EMPRESA</h1>
+            <form action="">
+                <div class="logsen">
+                    <label for="email">endereço de email:</label>
+                    <input type="email" name="" id="email" autocomplete="email" placeholder="lorem@gmail.com">
+                </div>
+                <div class="logsen">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="password">
+                </div>
+        
+                <button type="submit" id="submit-button">ENTRAR</button>
+                <a href="#">Esqueci a senha.</a>
+                <br>
+                <p>Não tem cadastro? <a href="registro.html"> Registre-se!</a></p>
+            </form>
+        </div>
+    </main>
 
-            <a href="#">Esqueci a senha.</a>
-            <br>
-            <p>Não tem cadastro? <a href="registro.html"> Registre-se!</a></p>    
-        </form>
-    </div>
+    <script src="../menu/menu.js"></script>
+
 </body>
 </html>
