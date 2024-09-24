@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --dark1:  #151515;
+    --dark2:  #2d383c; 
+    --dark3:  #414c50;
+    --azul1:  #0784b5;
+    --azul2:  #39ace7;
+    --branco: #ffffff;
+    --amarelo: #ccfe06;
+    --amarelo2: #9dbb24;
+}
+
+body {
+    background-color: var(--dark1);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+.conteiner {
+    display: flex;
+    justify-content:  flex-start;
+    width: 100%;
+    max-width: 800px;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.politica {
+    margin: 16px;
+    word-wrap: break-word; 
+}
+
+.politica h3, u{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.politica p {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.cadastro button {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 8px;
+    color: var(--dark1);
+    background-color: var(--amarelo);
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cadastro button:hover{
+    background-color: var(--amarelo2);
+}
+
+
+#login {
+    width: 50%;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.logsen1 {
+    display: flex; 
+    justify-content: space-between; 
+    width: 78.3%;
+    margin: 1.2%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+    padding: 6px;
+    font-size: 14px;
+    width: 44%;
+}
+
+
+.logsen {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 1.2%;
+}
+
+input {  
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+}
+
+a {
+    color: var(--azul1);
+}
+

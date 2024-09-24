@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --dark1:  #151515;
+    --dark2:  #2d383c; 
+    --dark3:  #414c50;
+    --azul1:  #0784b5;
+    --azul2:  #39ace7;
+    --branco: #ffffff;
+    --amarelo: #ccfe06;
+    --amarelo2: #9dbb24;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--dark1);
+    color: var(--branco);
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    box-shadow: 0px 5px 10px #1f1f1f;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    height: 60px; 
+}
+
+.nav-bar {
+    color: var(--branco);
+    display: flex;
+    align-items: center; 
+    justify-content: left; 
+    height: 100%;
+    padding-left: 20px;
+}
+
+
+#login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    
+}
+
+#login p, a {
+    font-size: 14px;
+}
+
+#login h1 {
+    font-size: 42px;
+    padding-bottom: 60px;
+    font-weight: 600;
+    letter-spacing: 16px;
+}
+
+.logsen {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2%;
+    font-size: 16px;
+    font-weight: 700;
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#login button {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-top: 18px;
+    color: var(--dark1);
+    background-color: var(--amarelo);
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login button:hover{
+    background-color: var(--amarelo2);
+}
+
+input {  
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+}
+
+a {
+    color: var(--branco);
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+      width: 100%;
+    }
+  }
