@@ -106,6 +106,65 @@ h1,h2 {
     opacity: 1;
 }
 
+/* Estilo Novidades */
+
+.novidades {
+    background-color: #ccfe06;
+}
+
+.novidades > .titulo-sessao {
+    color: #151515;
+}
+
+.container-novidades {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.card-novidades {
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+    padding: 25px;
+    margin: 10px;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(255,255,255,1);
+-moz-box-shadow: 10px 10px 0px 0px rgba(255,255,255,1);
+box-shadow: 10px 10px 0px 0px rgba(255,255,255,1);
+}
+
+.card-novidades span {
+    color: #fff;
+    width: 100%;
+}
+
+.card-novidades img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.novidades .produto {
+    flex-grow: 1;
+}
+
+.novidades .marca {
+    font-weight: bold;
+}
+
+.novidades .ver-produto {
+    background-color: #ccfe06;
+    color: #151515;
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#carouselNovidades2 {
+    display: none;
+}
+
 /* Estilo Esportes */
 
 .icon-esporte {
@@ -118,7 +177,6 @@ h1,h2 {
 }
 
 .titulo-sessao {
-    text-align: right;
     font-size: 3rem;
     margin-bottom: 100px;
 }
@@ -256,6 +314,14 @@ footer {
 
 }
 
+@media screen and (max-width:1300px) {
+
+    .container-novidades {
+        width: 80%;
+    }
+
+}
+
 @media screen and (max-width:1190px) {
     
     .capa {
@@ -275,6 +341,14 @@ footer {
     }
 
     .content-ofertas h1, .content-ofertas p,.link-ofertas {
+        width: 100%;
+    }
+
+    .img-ofertas img {
+        max-width: 100%;
+    }
+
+    .container-novidades {
         width: 100%;
     }
 
@@ -343,6 +417,13 @@ footer {
         height: 90px;
     }
 
+    #carouselNovidades2 {
+        display: block;
+    }
+
+    #carouselNovidades {
+        display: none;
+    }
 
 }
 
@@ -430,6 +511,10 @@ footer {
 
     .img-ofertas {
         margin-top: 30px;
+    }
+
+    .card-novidades {
+        padding: 15px;
     }
 
 }

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",function(){
 
-    const menu = document.querySelector('.menu');
+    const menu = document.querySelector('.hamburguer');
     const menuOpen = document.querySelector('.menu-open');
 
     let controlador = false;
