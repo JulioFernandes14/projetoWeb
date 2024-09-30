@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat";
+}
+
+body {
+    background-color:#ccfe06 ;
+}
+
+main {
+    background-color: #151515;
+    color: #fff;
+    padding: 90px;
+}
+
+.card-equipe {
+    background-color: #fff;
+    padding: 10px;
+    color: #151515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+
+.img-dev {
+    width: 100%;
+}
+
+.img-dev img {
+    width: 100%;
+}
+
+.nome {
+
+    font-weight: bold;
+    flex-grow: 1;
+
+}
+
+.box {
+    padding: 10px;
+}
+
+p {
+    font-size: 22px;
+}
+
+span{
+    width: 100%;
+}
+
+/* Estilo rodapé */
+
+footer {
+    background-color: #ccfe06;
+    padding: 40px;
+    width: 100%;
+}
+
+.logo_rodape {
+    padding-bottom: 100px;
+}
+
+.dados {
+    padding: 10px;
+}
+
+.dados a {
+    text-decoration: none;
+    color: #151515;
+    margin: 10px;
+}
+
+.dados,.informacao h3 {
+    width: 80%;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:992px) {
+    
+    main {
+        padding: 50px;
+    }
+
+}
+
+@media screen and (max-width:780px) {
+    
+    p{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:570px) {
+    
+    main {
+        padding: 20px;
+    }
+
+}
