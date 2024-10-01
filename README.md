@@ -6,8 +6,10 @@ Este projeto faz parte do curso de **Análise e Desenvolvimento de Sistemas** e 
 
 ## Funcionalidades
 
-- **Página de Suporte**: Página destinada a um formulário de suporte ao cliente.
-
+- **Página Inicial**: Página destinada a apresentar as principais categorias e produtos da loja.
+- **Minha Conta**: Página destinada ao login, cadastro e administração da conta do usuário/administrador
+- **Sobre nós**: Página destinada a apresentar um pouco do projeto e da equipe
+- **Loja**: Página destinada a todos os produtos fornecidos pelo site
 
 ## Objetivo
 
@@ -18,11 +20,8 @@ O objetivo deste portfólio é proporcionar uma plataforma interativa onde recru
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+- **Bootstrap**
 - **PHP**
-
-## Estrutura do Projeto
-
-- `/suporte.html`: Página de formulário de suporte ao cliente.
 
 ## Contato
 
