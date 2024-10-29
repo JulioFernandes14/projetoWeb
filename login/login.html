@@ -29,10 +29,11 @@
 
         <div class="menu-open">
             <ul>
-                <li><a href="../pagina-inicial/index.html">Início</a></li>
-                <li><a href="../loja/loja.html">Loja</a></li>
+                <li><a href="../pagina-inicial/index.php">Início</a></li>
+                <li><a href="../loja/loja.php">Loja</a></li>
                 <li><a href="../sobre-nos/sobre-nos.html">Sobre nós</a></li>
-                <li><a href="login.html">Minha conta</a></li>
+                <li><a href="../fale_conosco/fale_conosco.html">Fale conosco</a></li>
+                <li><a href="./login_php/cliente.php">Minha conta</a></li>
             </ul>
         </div>
 
@@ -41,10 +42,10 @@
     <main>
         <div id="login">
             <h1>NOME EMPRESA</h1>
-            <form action="">
+            <form action="login_php/verificar_login.php" method="post">
                 <div class="logsen">
                     <label for="email">endereço de email:</label>
-                    <input type="email" name="" id="email" autocomplete="email" placeholder="lorem@gmail.com">
+                    <input type="email" name="email" id="email" autocomplete="email" placeholder="lorem@gmail.com">
                 </div>
                 <div class="logsen">
                     <label for="senha">Senha:</label>
