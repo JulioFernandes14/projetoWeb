@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/estilos/alertas_login.css">
-    <title>Verificação atualização de produtos</title>
+    <link rel="shortcut icon" href="../../../menu/assets/logo_icon.png" />
+    <title>Verificação atualização de produtos - Alpha Esportes</title>
 
     <style>
         * {
@@ -34,6 +35,7 @@
             justify-content: center;
             align-items: center;
         }
+
     </style>
 
 </head>
@@ -56,6 +58,7 @@
     $nome = $_POST['nome'];
     $colecao = $_POST['colecao'];
     $preco = $_POST['preco'];
+    $categoria = $_POST['categoria'];
     $imagem_atual = $_POST['imagem_atual'];
 
     if ($_FILES['nova_imagem']['error'] === UPLOAD_ERR_OK) {
@@ -70,7 +73,7 @@
         $imagem = $imagem_atual;
     }
 
-    $sql = "UPDATE `produtos` SET `nome`='$nome', `colecao`='$colecao', `preco`='$preco', `imagem`='$imagem' WHERE `id`=$id";
+    $sql = "UPDATE `produtos` SET `nome`='$nome', `colecao`='$colecao', `preco`='$preco', `imagem`='$imagem',`categoria` = '$categoria' WHERE `id`=$id";
     $result = mysqli_query($conn,$sql);
 
     if ($result) {

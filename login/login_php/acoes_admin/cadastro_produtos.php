@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <title>Cadastro de produtos</title>
+    <title>Cadastro de produtos - Alpha Esportes</title>
+    <link rel="shortcut icon" href="../../../menu/assets/logo_icon.png" />
     <style>
         body {
             background-color:#151515;
@@ -62,6 +63,10 @@
             font-size:22px
         }
 
+        select {
+            padding:10px;
+        }
+
     </style>
 </head>
 <body>
@@ -105,6 +110,21 @@
 
                     <label>Preço:</label>
                     <input type="number" name='preco' placeholder='Preço do produto em R$' step="0.01" required>
+
+                </div>
+
+                <div class="campo">
+
+                    <label>Categoria: </label>
+
+                    <select name="categoria" required>
+                        <option value="camisa">Camisa</option>
+                        <option value="short">Short</option>
+                        <option value="casaco">Casaco</option>
+                        <option value="acessorio">Acessório</option>
+                        <option value="calcado">Calçado</option>
+                        <option value="mochila">Mochila</option>
+                    </select>
 
                 </div>
 

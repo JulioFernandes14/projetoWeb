@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../menu/menu.css">
     <script src="https://kit.fontawesome.com/1b07e3c1f8.js" crossorigin="anonymous"></script>
-    <title>Nossa Empresa</title>
+    <title>Alpha Esportes</title>
 </head>
 <body>
     
@@ -48,7 +48,7 @@
 
                 <h2> Equipe-se com o melhor, desempenhe com Excelência. </h2>
 
-                <a href="">VER PRODUTOS</a>
+                <a href="../loja/loja.php">VER PRODUTOS</a>
 
             </div>
 
@@ -66,43 +66,55 @@
 
                 <div class="categoria col-2">
 
-                    <img src="assets/camisa.png" alt="">
-                    <span>Camisetas</span>
+                    <a href="../loja/loja-filtrada.php?categoria=camisa" style="text-decoration:none;">
+                        <img src="assets/camisa.png" alt=""> <br>
+                        <span>Camisetas</span>
+                    </a>
 
                 </div>
 
                 <div class="categoria col-2">
 
-                    <img src="assets/bermuda.png" alt="">
-                    <span>Bermudas</span>
+                    <a href="../loja/loja-filtrada.php?categoria=short" style="text-decoration:none;">
+                        <img src="assets/bermuda.png" alt=""> <br>
+                        <span>Bermudas</span>
+                    </a>
 
                 </div>
 
                 <div class="categoria col-2">
 
-                    <img src="assets/casaco.png" alt="">
-                    <span>Casacos</span>
+                    <a href="../loja/loja-filtrada.php?categoria=casaco" style="text-decoration:none;">
+                        <img src="assets/casaco.png" alt=""> <br>
+                        <span>Casacos</span>
+                    </a>
 
                 </div>
 
                 <div class="categoria col-2">
 
-                    <img src="assets/bone.png" alt="">
-                    <span>Acessórios</span>
+                    <a href="../loja/loja-filtrada.php?categoria=acessorio" style="text-decoration:none;">
+                        <img src="assets/bone.png" alt=""> <br>
+                        <span>Acessórios</span>
+                    </a>
 
                 </div>
 
                 <div class="categoria col-2">
 
-                    <img src="assets/tenis.png" alt="">
-                    <span>Tênis</span>
+                    <a href="../loja/loja-filtrada.php?categoria=calcado" style="text-decoration:none;">
+                        <img src="assets/tenis.png" alt=""> <br>
+                        <span>Calçados</span>
+                    </a>
 
                 </div>
 
                 <div class="categoria col-2">
 
-                    <img src="assets/mochila.png" alt="">
-                    <span>Mochilas</span>
+                    <a href="../loja/loja-filtrada.php?categoria=mochila" style="text-decoration:none;">
+                        <img src="assets/mochila.png" alt="">
+                        <span>Mochilas</span>
+                    </a>
 
                 </div>
 
@@ -451,7 +463,7 @@
                         Nossos produtos de futebol são escolhidos para oferecer desempenho superior e durabilidade. Desde chuteiras com tecnologia avançada para máximo controle e precisão, até bolas de alta qualidade que garantem jogabilidade profissional, oferecemos tudo o que você precisa para dominar o campo.
                     </p>
 
-                    <a href="" class="link-esporte">VER PRODUTOS</a>
+                    <a href="../loja/loja.php" class="link-esporte">VER PRODUTOS</a>
 
                 </div>
 
@@ -465,7 +477,7 @@
                         Nossa linha de ciclismo oferece bicicletas de alto desempenho, roupas técnicas e acessórios essenciais para todos os níveis de ciclistas. Cada produto é projetado para otimizar sua experiência, proporcionando conforto, segurança e velocidade, seja em trilhas desafiadoras ou estradas urbanas.
                     </p>
 
-                    <a href="" class="link-esporte">VER PRODUTOS</a>
+                    <a href="../loja/loja.php" class="link-esporte">VER PRODUTOS</a>
 
                 </div>
 
@@ -479,7 +491,7 @@
                         Nossos produtos de musculação oferecem qualidade e durabilidade para treinos intensos. De halteres a acessórios, tudo para ajudar você a alcançar suas metas de força e desempenho.
                     </p>
 
-                    <a href="" class="link-esporte">VER PRODUTOS</a>
+                    <a href="../loja/loja.php" class="link-esporte">VER PRODUTOS</a>
 
                 </div>
 
@@ -493,7 +505,7 @@
                         Nossa linha de atletismo inclui calçados leves e roupas técnicas, projetados para maximizar sua performance. Encare cada corrida com o suporte e o conforto necessários para superar seus limites.
                     </p>
 
-                    <a href="" class="link-esporte">VER PRODUTOS</a>
+                    <a href="../loja/loja.php" class="link-esporte">VER PRODUTOS</a>
 
                 </div>
 
@@ -509,7 +521,7 @@
 
                 <p>Ofertas imperdíveis em setembro para você equipar-se com o melhor do esporte e alcançar seus objetivos com mais eficiência!</p>
 
-                <div class="link-ofertas"><a href="">VER OFERTAS</a></div>
+                <div class="link-ofertas"><a href="../loja/loja.php">VER OFERTAS</a></div>
 
             </div>
 
@@ -637,6 +649,20 @@
         </div>
 
     </footer>
+
+    <script>
+        
+        const verProds = document.querySelectorAll('.ver-produto');
+
+        console.log(verProds);
+
+        verProds.forEach(function(botao) {
+            botao.addEventListener('click', function() {
+                alert('VID (Visualização individual de produto) não disponível no momento');
+            });
+        });
+
+    </script>
 
     <script src="../menu/menu.js"></script>
 

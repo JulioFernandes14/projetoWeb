@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alterar dados</title>
+    <link rel="shortcut icon" href="../../../menu/assets/logo_icon.png" />
+    <title>Alterar dados - Alpha Esportes</title>
 
     <style>
 

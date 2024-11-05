@@ -81,6 +81,8 @@
                                 die("Conexão falhou: " . $conn->connect_error);
                             }
 
+                            $categoria = $_GET['categoria'];
+
                             $sql = "SELECT * FROM `produtos`";
                             $result = mysqli_query($conn,$sql);
 
@@ -88,15 +90,19 @@
 
                                 while ($linha = mysqli_fetch_assoc($result)) {
 
-                                    echo " <div class='prod-col col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12'>
-                                                <div class='card-produto'>
-                                                    <img src='../login/login_php/acoes_admin/img_produtos/$linha[imagem]'>
-                                                    <span class='produto'>$linha[nome]</span>
-                                                    <span class='marca'>$linha[colecao]</span>
-                                                    <span class='preco'>R$ $linha[preco]</span>
-                                                    <button class='ver-produto'>VER PRODUTO</button>
-                                                </div>
-                                            </div>";
+                                    if ($linha['categoria'] == $categoria) {
+
+                                        echo " <div class='prod-col col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12'>
+                                            <div class='card-produto'>
+                                                <img src='../login/login_php/acoes_admin/img_produtos/$linha[imagem]'>
+                                                <span class='produto'>$linha[nome]</span>
+                                                <span class='marca'>$linha[colecao]</span>
+                                                <span class='preco'>R$ $linha[preco]</span>
+                                                <button class='ver-produto'>VER PRODUTO</button>
+                                            </div>
+                                        </div>";
+
+                                    }
            
                                }
 

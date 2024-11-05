@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="envio_form.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="../menu/assets/logo_icon.png" />
+    <title>Confirmação Formulário - Alpha Esportes</title>
 </head>
 <body>
     
@@ -28,7 +29,7 @@
 
             echo"<div> 
                     <h1> Formulário enviado com sucesso! </h1>
-                    <a href='../pagina-inicial/index.html'> Voltar para página inicial </a>
+                    <a href='../pagina-inicial/index.php'> Voltar para página inicial </a>
                 </div>";
 
         } else {

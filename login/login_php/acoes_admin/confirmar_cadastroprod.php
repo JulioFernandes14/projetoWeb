@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/estilos/alertas_login.css">
-    <title>Verificação cadastro de produtos</title>
+    <link rel="shortcut icon" href="../../../menu/assets/logo_icon.png" />
+    <title>Verificação cadastro de produtos - Alpha Esportes</title>
 
     <style>
         * {
@@ -58,6 +59,7 @@
         $nome = $_POST['nome'];
         $colecao = $_POST['colecao'];
         $preco = $_POST['preco'];
+        $categoria = $_POST['categoria'];
 
         $imagem = $_FILES['imagem'];
         $nomeImagem = $imagem['name'];
@@ -65,7 +67,7 @@
         $diretorioDestino = './img_produtos/' . $nomeImagem;
 
         if (move_uploaded_file($caminhoTemp, $diretorioDestino)) {
-            $sql = "INSERT INTO produtos (nome, colecao,preco,imagem) VALUES ('$nome', '$colecao', '$preco', '$nomeImagem')";
+            $sql = "INSERT INTO produtos (nome, colecao,preco,imagem,categoria) VALUES ('$nome', '$colecao', '$preco', '$nomeImagem','$categoria')";
             $result = mysqli_query($conn,$sql);
 
             if ($result) {

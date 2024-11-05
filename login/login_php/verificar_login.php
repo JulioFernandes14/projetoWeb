@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/estilos/alertas_login.css">
-    <title>Verificação cadastro de produtos</title>
+    <title>Verificação Login - Alpha Esportes</title>
 </head>
 <body>
    
