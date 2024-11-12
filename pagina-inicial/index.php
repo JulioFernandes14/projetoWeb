@@ -517,9 +517,9 @@
 
             <div class="content-ofertas col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 
-                <h1 class="titulo-sessao titulo-ofertas">OFERTAS DE OUTUBRO</h1>
+                <h1 class="titulo-sessao titulo-ofertas">OFERTAS DE NOVEMBRO</h1>
 
-                <p>Ofertas imperdíveis em setembro para você equipar-se com o melhor do esporte e alcançar seus objetivos com mais eficiência!</p>
+                <p>Ofertas imperdíveis em novembro para você equipar-se com o melhor do esporte e alcançar seus objetivos com mais eficiência!</p>
 
                 <div class="link-ofertas"><a href="../loja/loja.php">VER OFERTAS</a></div>
 
